@@ -26,9 +26,8 @@ public class Review1{
         MonthinDays += 31;
       }
 
+    }
     DaysinTotal = MonthinDays + Days;
     System.out.println("Your days in the year is: " +DaysinTotal+ "days");
-
-    }
   }
 }
