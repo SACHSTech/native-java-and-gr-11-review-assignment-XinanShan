@@ -3,7 +3,7 @@ package gr11review.part1;
 import java.io.*;
 
 public class Review1{
-  public static void main(String[] args){
+  public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
     int Month;
     int Days;
