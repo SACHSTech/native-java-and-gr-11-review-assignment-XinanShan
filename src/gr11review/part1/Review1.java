@@ -9,7 +9,7 @@ public class Review1{
     int Days;
     int MonthinDays;
     int Count;
-    int DaysinTotal
+    int DaysinTotal;
 
     System.out.println("Enter the month number:");
     Month = Integer.parseInt(key.readLine());
@@ -26,7 +26,7 @@ public class Review1{
         MonthinDays += 31;
       }
 
-    DaysinTotal = MonthinDays + Days
+    DaysinTotal = MonthinDays + Days;
     System.out.println("Your days in the year is: " +DaysinTotal+ "days");
 
     }
