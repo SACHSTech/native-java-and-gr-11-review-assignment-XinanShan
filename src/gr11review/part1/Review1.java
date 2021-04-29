@@ -4,10 +4,10 @@ import java.io.*;
 
 public class Review1{
   public static void main(String[] args){
-    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+    BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
     int Month;
     int Days;
-    int MonthinDays;
+    int MonthinDays = 0;
     int Count;
     int DaysinTotal;
 
@@ -17,7 +17,7 @@ public class Review1{
     System.out.println("Enter the date number:");
     Days = Integer.parseInt(key.readLine());
 
-    for (Count = 1; Count < Month; intCount++){
+    for (Count = 1; Count < Month; Count++){
       if (Count == 2){
         MonthinDays += 28;
       }else if (Count == 4 || Count == 6 || Count == 9 || Count == 11){
