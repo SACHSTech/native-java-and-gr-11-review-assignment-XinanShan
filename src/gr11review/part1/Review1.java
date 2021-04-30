@@ -10,13 +10,14 @@ public class Review1{
     int MonthinDays = 0;
     int Count;
     int DaysinTotal;
+    //initializing the variables
 
-    System.out.println("Enter the month number:");
+    System.out.print("Enter the month number: ");
     Month = Integer.parseInt(key.readLine());
 
-    System.out.println("Enter the date number:");
+    System.out.print("Enter the day number: ");
     Days = Integer.parseInt(key.readLine());
-
+    // Asking the user for the value of the variables
     for (Count = 1; Count < Month; Count++){
       if (Count == 2){
         MonthinDays += 28;
@@ -25,9 +26,10 @@ public class Review1{
       }else{
         MonthinDays += 31;
       }
-
+      //converting the month number into days of the year before that month
     }
     DaysinTotal = MonthinDays + Days;
-    System.out.println("Your days in the year is: " +DaysinTotal+ "days");
+    //Adding all the days together to get the total number of days in the year
+    System.out.println(DaysinTotal);
   }
 }
