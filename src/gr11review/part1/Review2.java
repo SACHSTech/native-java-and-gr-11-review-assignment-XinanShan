@@ -24,8 +24,8 @@ public class Review2{
       System.out.println("But they usually only have two.");
       break;
     case 2:
-      System.out.println("Why do bees have sticky hair?");
-      System.out.println("They always use honeycombs.");
+      System.out.println("What is DNA’s favourite piece of clothing?");
+      System.out.println("Jeans (genes)");
       break;
     case 3:
       System.out.println("Why do bees have sticky hair?");
