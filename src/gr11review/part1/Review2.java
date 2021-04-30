@@ -28,8 +28,8 @@ public class Review2{
       System.out.println("Jeans (genes)");
       break;
     case 3:
-      System.out.println("Why do bees have sticky hair?");
-      System.out.println("They always use honeycombs.");
+      System.out.println("Why Did the Teacher Write on the Window?");
+      System.out.println("Because the the lesson needed to be clear.");
       break;
     default:
       System.out.println("Invalid menu option");
