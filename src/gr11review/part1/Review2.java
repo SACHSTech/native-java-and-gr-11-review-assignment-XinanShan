@@ -20,8 +20,8 @@ public class Review2{
       System.out.println("They always use honeycombs.");
       break;
     case 1: 
-      System.out.println("Why do bees have sticky hair?");
-      System.out.println("They always use honeycombs.");
+      System.out.println("A man can grow up to 8 feet");
+      System.out.println("But they usually only have two.");
       break;
     case 2:
       System.out.println("Why do bees have sticky hair?");
