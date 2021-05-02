@@ -8,6 +8,7 @@ import java.io.*;
 */
 public class Review3{
   public static void main(String[] args) throws IOException{
+    //declaring the variables
     int Count;
     int Count2;
     int Max = 100;

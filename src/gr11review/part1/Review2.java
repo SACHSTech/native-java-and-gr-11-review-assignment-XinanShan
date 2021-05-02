@@ -12,6 +12,7 @@ import java.io.*;
 public class Review2{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
+    //declaring the variables
     int MenuOption;
 
   // prints all the menu options and asking the user to choose one of them
