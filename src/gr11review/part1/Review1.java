@@ -2,6 +2,14 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+* Create a program that asks the user to enter month number and date number
+* Exchange the month into days and calculate the total number of days in the year
+* Assume it is not a leap year which means February has 28 days
+* @author: A. Shan
+*
+*/
+
 public class Review1{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

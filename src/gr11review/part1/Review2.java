@@ -2,6 +2,14 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+* prints a list of choices and asks for an input
+* dependings on the inputs, print out the joke that the input asks
+* If the input doesn't match any of the cases, print Invalid menu option
+* @author: A. Shan
+*
+*/
+
 public class Review2{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
