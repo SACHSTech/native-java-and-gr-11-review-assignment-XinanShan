@@ -13,6 +13,7 @@ public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
     NumberFormat numberFormat = new DecimalFormat("#,###.00")
+    
     //declaring the variables
     int itemNum;
     double Subtotal = 0;
@@ -24,6 +25,7 @@ public class Review4{
   // Ask for the number of items
     System.out.println("How many items are you buying? ");
     itemNum = Integer.parseInt(key.readLine());
+  
   // Ask for the prices of item until the first input and add them together for the subtotal
     for (Count = 1; Count <= itemNum; Count++){
       System.out.println("Enter the price of the item ");
@@ -31,6 +33,17 @@ public class Review4{
       Subtotal += Price;
     }  
     // Calculate the tax
+    Tax = Subtotal * 0.13;
     
+    // Makes it DecimalFormat
+    numberFormat.format(Tax);
+    
+    // Calculate the total
+    Total = Tax + Subtotal;
+
+
+
+
+
   }
 }
