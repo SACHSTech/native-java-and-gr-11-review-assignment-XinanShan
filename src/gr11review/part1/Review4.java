@@ -12,7 +12,7 @@ import java.text.*;
 public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
-    NumberFormat numberFormat = new DecimalFormat("#,###.00");
+    NumberFormat numberFormat = new DecimalFormat("#,###0.00");
     
     //declaring the variables
     int itemNum;
@@ -23,12 +23,12 @@ public class Review4{
     double Price;
 
   // Ask for the number of items
-    System.out.println("How many items are you buying? ");
+    System.out.println("How many items do you want to buy? ");
     itemNum = Integer.parseInt(key.readLine());
   
   // Ask for the prices of item until the first input and add them together for the subtotal
     for (Count = 1; Count <= itemNum; Count++){
-      System.out.println("Enter the price of the item ");
+      System.out.println("Enter the price for item " + Count + ": ");
       Price = Double.parseDouble(key.readLine());
       Subtotal += Price;
     }
