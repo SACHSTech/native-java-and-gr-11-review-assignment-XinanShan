@@ -7,7 +7,6 @@ import java.io.*;
 * Exchange the month into days and calculate the total number of days in the year
 * Assume it is not a leap year which means February has 28 days
 * @author: A. Shan
-*
 */
 
 public class Review1{

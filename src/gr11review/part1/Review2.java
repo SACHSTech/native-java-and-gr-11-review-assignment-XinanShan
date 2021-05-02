@@ -7,7 +7,6 @@ import java.io.*;
 * dependings on the inputs, print out the joke that the input asks
 * If the input doesn't match any of the cases, print Invalid menu option
 * @author: A. Shan
-*
 */
 
 public class Review2{
