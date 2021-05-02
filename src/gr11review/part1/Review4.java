@@ -12,7 +12,7 @@ import java.text.*;
 public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
-    NumberFormat numberFormat = new DecimalFormat("#,###.00")
+    NumberFormat numberFormat = new DecimalFormat("#,###.00");
     
     //declaring the variables
     int itemNum;
@@ -31,7 +31,7 @@ public class Review4{
       System.out.println("Enter the price of the item ");
       Price = Double.parseDouble(key.readLine());
       Subtotal += Price;
-    }  
+    }
     // Calculate the tax
     Tax = Subtotal * 0.13;
     
@@ -40,10 +40,9 @@ public class Review4{
     
     // Calculate the total
     Total = Tax + Subtotal;
-
-
-
-
-
+    //Print the tax, subtotal and the total
+    System.out.println("Subtotal: $" + numberFormat.format(Subtotal));
+    System.out.println("Tax: $" + numberFormat.format(Tax));
+    System.out.println("Total: $" + numberFormat.format(Total));
   }
 }
