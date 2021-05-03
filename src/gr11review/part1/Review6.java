@@ -30,5 +30,17 @@ public class Review6{
       Count++;
     }
     
+    // Calculate the tax
+    Tax = Subtotal * 0.13;
+    
+    // Makes it DecimalFormat
+    numberFormat.format(Tax);
+    
+    // Calculate the total
+    Total = Tax + Subtotal;
+    //Print the tax, subtotal and the total
+    System.out.println("Subtotal: $" + numberFormat.format(Subtotal));
+    System.out.println("Tax: $" + numberFormat.format(Tax));
+    System.out.println("Total: $" + numberFormat.format(Total));
   }
 }
