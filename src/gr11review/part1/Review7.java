@@ -24,9 +24,9 @@ public class Review7{
   //Count the number of letters in the sentence
   Characters = Sentence.length();
 
-  for (Count = 1; Count <= Characters; Count++){
+  for (Count = 0; Count < Characters; Count++){
     
-    / Extracting a single character from the sentence and put it in a char varaible
+    // Extracting a single character from the sentence and put it in a char varaible
     char OneCharacter = Sentence.charAt(Count);
     
     // check if the character equal to space or the letter "a" and count them
@@ -36,13 +36,13 @@ public class Review7{
       LetterA++;
       }
     
-    if (Count % 2 != 0){
+    if ((Count+1) % 2 != 0){
       Dashes += "-";
       }
     }
-    System.out.println("There are " + Characters + " characters in the sentence");
-    System.out.println("There are " + Spaces + " spaces in the sentence");
-    System.out.println("There are " + LetterA + " letter a in the sentence");
+    System.out.println("There are " + Characters + " characters in the sentence.");
+    System.out.println("There are " + Spaces + " spaces in the sentence.");
+    System.out.println("There are " + LetterA + " letter a in the sentence.");
     System.out.println(Dashes);
   }
 }
