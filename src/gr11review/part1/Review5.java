@@ -8,7 +8,7 @@ import java.io.*;
 * And then print out the amount of time
 * @author: A. Shan 
 */
-public class Reviewa5{
+public class Review5{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
     
@@ -33,11 +33,11 @@ public class Reviewa5{
     //The while loop stops when the condition is false
     while (Total < Target){
       Total += Invest;
-      Total += (Total * (Rate / 100);
+      Total += (Total * (Rate / 100));
       Year++;
     }
 
     //Print out the amount of years to reach the target amount
-    System.out.print("The target amount will be earned in" + Year + "years.);
+    System.out.println("The target amount will be earned in " + Year + " years.");
   }
 }
