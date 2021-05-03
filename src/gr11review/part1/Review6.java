@@ -23,10 +23,10 @@ public class Review6{
 
     // If the input is not a 0, the loop continues
     while (Price != 0){
-      System.out.print("Enter the price for item "+Count+":");
+      System.out.print("Enter the price for an item: ");
       Price = Double.parseDouble(key.readLine());
 
-      Subtotal += Price
+      Subtotal += Price;
       Count++;
     }
     
