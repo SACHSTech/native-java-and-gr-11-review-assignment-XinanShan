@@ -28,12 +28,16 @@ public class Reviewa5{
 
     System.out.print("Enter the target amount: ");
     Target = Double.parseDouble(key.readLine());
+    
     //Calculates the amount of years neeeded to reach the taget amount 
     //The while loop stops when the condition is false
     while (Total < Target){
       Total += Invest;
-      Total += (Total * ( / 100);
-
+      Total += (Total * (Rate / 100);
+      Year++;
     }
+
+    //Print out the amount of years to reach the target amount
+    System.out.print("The target amount will be earned in" + Year + "years.);
   }
 }
