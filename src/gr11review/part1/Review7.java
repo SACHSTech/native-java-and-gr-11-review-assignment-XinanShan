@@ -35,11 +35,15 @@ public class Review7{
     }else if(OneCharacter == 'a'){
       LetterA++;
       }
-    
+    // Check if the letter is an odd numbered number of not.
+    // The count must plus 1 because when declearing the varaible, it is zero.
+    // However, when we are looking at each of the characters in the sentence, we start from 1.
     if ((Count+1) % 2 != 0){
       Dashes += "-";
       }
     }
+    // print out how many characters, spaces and letter "a" in the sentence.
+    // And then print out the dashes
     System.out.println("There are " + Characters + " characters in the sentence.");
     System.out.println("There are " + Spaces + " spaces in the sentence.");
     System.out.println("There are " + LetterA + " letter a in the sentence.");
